@@ -1,0 +1,137 @@
+2018-02-02 16:46:13 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: qczj)
+2018-02-02 16:46:13 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.0.1, parsel 1.3.1, w3lib 1.18.0, Twisted 17.9.0, Python 3.6.3 (v3.6.3:2c5fed8, Oct  3 2017, 17:26:49) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.1.4, Platform Windows-10-10.0.15063-SP0
+2018-02-02 16:46:13 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'qczj', 'COOKIES_ENABLED': False, 'LOG_FILE': 'carSpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'qczj.spiders', 'SPIDER_MODULES': ['qczj.spiders']}
+2018-02-02 16:46:13 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-02-02 16:46:13 [py.warnings] WARNING: d:\python\lib\site-packages\scrapy\utils\deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.useragent.UserAgentMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2018-02-02 16:46:14 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'qczj.middlewares.RandomUserAgentMiddleware',
+ 'qczj.middlewares.RandomProxyMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-02-02 16:46:14 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-02-02 16:46:14 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-02-02 16:46:14 [scrapy.core.engine] INFO: Spider opened
+2018-02-02 16:46:14 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-02-02 16:46:31 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-02-02 16:46:31 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 296,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 71617,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 2, 2, 8, 46, 31, 354255),
+ 'log_count/INFO': 7,
+ 'log_count/WARNING': 1,
+ 'offsite/domains': 1,
+ 'offsite/filtered': 883,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 2, 2, 8, 46, 14, 83966)}
+2018-02-02 16:46:31 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-02-02 17:12:41 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: qczj)
+2018-02-02 17:12:41 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.0.1, parsel 1.3.1, w3lib 1.18.0, Twisted 17.9.0, Python 3.6.3 (v3.6.3:2c5fed8, Oct  3 2017, 17:26:49) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.1.4, Platform Windows-10-10.0.15063-SP0
+2018-02-02 17:12:41 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'qczj', 'COOKIES_ENABLED': False, 'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter', 'LOGSTATS_INTERVAL': 0, 'LOG_FILE': 'carSpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'qczj.spiders', 'SPIDER_MODULES': ['qczj.spiders']}
+2018-02-02 17:12:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole']
+2018-02-02 17:12:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'qczj.middlewares.RandomUserAgentMiddleware',
+ 'qczj.middlewares.RandomProxyMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-02-02 17:12:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-02-02 17:12:41 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-02-02 17:12:41 [scrapy.core.engine] INFO: Spider opened
+2018-02-02 22:56:31 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: qczj)
+2018-02-02 22:56:31 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.0.1, parsel 1.3.1, w3lib 1.18.0, Twisted 17.9.0, Python 3.6.3 (v3.6.3:2c5fed8, Oct  3 2017, 17:26:49) [MSC v.1900 32 bit (Intel)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.1.4, Platform Windows-10-10.0.15063-SP0
+2018-02-02 22:56:31 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'qczj', 'COOKIES_ENABLED': False, 'LOG_FILE': 'carSpider.log', 'LOG_LEVEL': 'INFO', 'NEWSPIDER_MODULE': 'qczj.spiders', 'SPIDER_MODULES': ['qczj.spiders']}
+2018-02-02 22:56:31 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-02-02 22:56:31 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'qczj.middlewares.RandomUserAgentMiddleware',
+ 'qczj.middlewares.RandomProxyMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-02-02 22:56:31 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-02-02 22:56:31 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2018-02-02 22:56:31 [scrapy.core.engine] INFO: Spider opened
+2018-02-02 22:56:31 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-02-02 22:57:19 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-02-02 22:57:19 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/twisted.web._newclient.ResponseNeverReceived': 1,
+ 'downloader/request_bytes': 620,
+ 'downloader/request_count': 2,
+ 'downloader/request_method_count/GET': 2,
+ 'downloader/response_bytes': 71636,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 2, 2, 14, 57, 19, 716959),
+ 'log_count/INFO': 7,
+ 'offsite/domains': 1,
+ 'offsite/filtered': 883,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'retry/count': 1,
+ 'retry/reason_count/twisted.web._newclient.ResponseNeverReceived': 1,
+ 'scheduler/dequeued': 2,
+ 'scheduler/dequeued/memory': 2,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2018, 2, 2, 14, 56, 31, 312861)}
+2018-02-02 22:57:19 [scrapy.core.engine] INFO: Spider closed (finished)
